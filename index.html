@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bbea4370e7.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Search App</title>
+</head>
+<body>
+    <main>
+        <h1>Pokemon Search App</h1>
+        <div id="search">
+            <h2>Search for Pokémon Name or ID:</h2>
+            <input type="text" id="search-input" required>
+            <button id="search-button">Search</button>
+        </div>
+        <div id="pokemon-info">
+            <div id="pokemon">
+                <h2><span id="pokemon-name"></span> <span id="pokemon-id"></span></h2>
+                <img id="pokemon-image" src="" alt="">
+                <p id="types"></p>
+            </div>
+            <div id="pokemon-stats">
+                <h2>Stats</h2>
+                <p>Weight: <span id="weight"></span></p>
+                <p>Height: <span id="height"></span></p>
+                <p>HP: <span id="hp"></span></p>
+                <p>Attack: <span id="attack"></span></p>
+                <p>Defense: <span id="defense"></span></p>
+                <p>Special Attack: <span id="special-attack"></span></p>
+                <p>Special Defense: <span id="special-defense"></span></p>
+                <p>Speed: <span id="speed"></span></p>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <h2>Created by <a href="https://andreskindel.github.io/personal-page/" target="_blank">Andres Kindel Barbosa</a></h2>
+        <h2><a href="https://www.linkedin.com/in/andres-kindel-a53556288" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></h2>
+        <h2><a href="https://github.com/AndresKindel" target="_blank"><i class="fab fa-github"></i> GitHub</a></h2>
+        <h2><a href="mailto: andreskbarbosa1@gmail.com" target="_blank"><i class="fas fa-at"></i> Send a mail</a></h2>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
